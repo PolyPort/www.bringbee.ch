@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BringBee - Crowdsourced home deliveries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BringBee is a crowdsourced delivery service and we are pioneers in crowdlogistics in Europe. ">
+    <meta name="keywords" content="PolyPort, BringBee, Crowdsourcing, Crowd, Crowdlogistics, www.bringbee.ch, kartoffeltaxi.ch, Mitbringservice, Sharing Economy" />
+    <meta name="author" content="BringBee, PolyPort GmbH">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <link href="http://externalcdn.com/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="img/icons/favicon_32.png">
+    <!--<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">-->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">-->
+    <!--<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+  </head>
+
+  <body>
+
+     <!-- NOTIFICATION CLOSED-->
+    <div class="alert alert-info" role="alert">
+      <p class="text-center"> 
+        <strong>
+          BringBee officially stopped operating in Switzerland October, 2014 </br> :(   </br> </strong>         
+        
+      </p>
+    </div> 
+     
+     <!-- NAV-->
+    <div class="navbar-wrapper">
+      <div class="container">
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">BringBee</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#about">About BringBee</a></li>
+                <li><a href="#success">Success Stories</a></li>
+                <li><a href="#learnings">Learnings</a></li>
+                <li><a href="#future">Future</a></li>
+                <li><a href="#thanks">Thanks</a></li>   
+              </ul>
+              <ul class="nav navbar-nav pull-right">                
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">English<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="index.html">German</a></li> 
+                    <li><a href="#">English</a></li>                   
+                  </ul>
+                </li> 
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/slide/slide01b.png" alt="70% of all transport capacities remain unused. Source: Gerrit Schmit_pixelio.de">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Thousands of people are on the move, </br> every single day.</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/slide/slide02.png" alt="Traffic accounts for ca. 35% of all CO2 emissions. Source: Petra Bork_pixelio.de">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>70% of all transport capacities remain unused.</h1>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/slide/slide03.png" alt="Crowdlogistics.  Source: birgitH_pixelio.de">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Why don't you </br> become part of the transport chain?</h1>
+              <p class="lead">Take deliveries along your way, earn money and help others. Crowdsource logistics!</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item">
+          <img src="img/slide/slide04c.png" alt="BringBee: Crowdsourced deliveries Source: romelia, pixelio.de">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>BringBee: Crowdsource your shopping run</h1>
+              <p class="lead">Order your shopping online and a BringBee will deliver when and where you want it</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/slide/slide05c.png" alt="BringBee and IKEA ">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>BringBee worked with IKEA </h1>
+              <p class="lead">Save yourself the 3-hour trip to IKEA. Get your shopping list picked up and delivered. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/slide/slide06a.png" alt="BringBee with SMEs ">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>BringBee worked with regional SMEs </h1>
+              <p class="lead">Discover a local specialty! Get a beer from the local micro-brewery delivered by a fellow beer lover. </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="img/slide/slide07c.png" alt="3000+ products ">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>BringBee supported the local economy</h1>
+              <p class="lead">We gave small retailers from home accessoires to fairtrade products and local specialties an online presence, visibility and a delivery community.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+         
+
+
+
+
+    <!-- BRINGBEE OVERVIEW START
+    ================================================== -->
+    <!--  -->
+    <div class="container marketing">      
+
+      <!-- ABOUT -->
+      <div class="row" id="about">
+        <div class="col-md-12">
+          <h1 class="text-center">About BringBee</h1>        
+         </br>
+        </div>
+      </div>
+
+      <div class="row" >
+        <div class="col-md-5">          
+          <p >BringBee is a crowdsourced home delivery service for your shopping. Customers write their shopping list via one of our partner shops or a free text form online and get their shopping bought and delivered by another customer when and where they want it for a little reward. Because one BringBee does the shopping for two at the same time, customers help each other and avoid unnecessary shoppings trips and traffic in their neighborhoods. BringBee verifies all its members and shoppers, ensures a secure payment, allows easy communication via the platform, offers support and free transport insurance. 
+          <p>BringBee launched at the beginning of 2013 in a first pilot project in cooperation with IKEA Switzerland. In 2014 a number of regional small and medium enterprises, such as home accessoire or specialty shops and local micro-breweries joined in as partners. </p>
+
+          <p> <a href="http://bringbee.files.wordpress.com/2014/01/bringbee-leaflet_screen.pdf" target="_blank"> <img src="img/icons/pdf.png"> Read the BringBee Brochure</a></p>
+          <p><a href="http://bringbee.wordpress.com" target="_blank"><img src="img/icons/w.png"/> Read more on our blog</a></p>
+         
+
+        </div>
+        <div class="col-md-6 col-md-offset-1">
+          
+           <!-- VIDEO-->
+         <iframe src="https://player.vimeo.com/video/51810735?title=0&amp;byline=0&amp;portrait=0&amp;color=c9ff23" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+         <p>The video shows an example of how BringBee works at IKEA.  </p>
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider" >
+
+
+       <!-- WORKED -->
+      <div class="row" id="success">
+        <div class="col-md-12">
+          <h1 class="text-center">It worked! And it worked great...</h1>        
+         </br>
+         <p class="text-center">... just not often enough to make a living out of it...</p>
+       </br>
+        </div>
+      </div>
+
+
+      <div class='row'>
+        <div class='col-md-4'>
+          <a href="img/screenshots/partner_shops.png" target="_blank"><img src="img/screenshots/partner_shops.png" class="img-thumbnail img-responsive" alt="BringBee Partnershops Screenshot "></a>
+          <p class="text-center">Partner Shop Selection</p>
+        </div>
+        <div class='col-md-4'>
+          <a href="img/screenshots/shop_ikea.png" target="_blank"><img alt="BringBee IKEA Partner Shop Screenshot" class="img-thumbnail img-responsive"  src="img/screenshots/shop_ikea.png"/> </a>         
+          <p class="text-center">IKEA Partner Shop</p>
+        </div>
+        <div class='col-md-4'>
+          <a href="img/screenshots/mitbringjobs_sudwerk.png" target="_blank"><img alt="BringBee Job - Sudwerk Brewery" class="img-thumbnail img-responsive" src="img/screenshots/mitbringjobs_sudwerk.png" /></a>
+          <p class="text-center">Example BringBee Job</p>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class='col-md-12'>
+          <h2 class="text-center">Read interviews with Partner-Shops</h2>
+          <p class="text-center"><a href="http://bringbee.wordpress.com/2014/02/28/interview-mit-stefan-herrmann-vom-burgdorfer-bier/" target="_blank">Interview with the Burgdorfer Bier (de)</a></p>
+          <p class="text-center"><a href="http://bringbee.wordpress.com/2014/06/13/interview-mit-martin-vom-sudwerk-schweizer-bier-mal-anders/" target="_blank">Interview with Sudwerk (de)</a></p>
+          <p class="text-center"><a href="http://bringbee.wordpress.com/2014/07/11/interview-mit-soeder-handverlesene-basics-fur-den-alltag/" target="_blank">Interview with Soeder* (de)</a></p>
+          <p class="text-center"><a href="http://bringbee.wordpress.com/2014/06/20/interview-mit-mintgreen-just-living-wir-leben-gutes-design/" target="_blank">Interview mit mintgreen (de)</a></p>
+          
+        </div>
+       
+      </div>
+
+
+
+
+      <hr class="featurette-divider" >
+
+       <!-- SUCCESS -->
+      <div class="row" id="success">
+        <div class="col-md-12">
+          <h1 class="text-center">We had some great customer feedback...</h1>        
+         </br>
+        </div>
+      </div>
+
+
+     <!-- TESTIMONIALS -->
+      
+      <div class='row'>
+        <div class='col-md-4'>
+          <img src="img/testimonial/1.png" alt="BringBee Testimonial Andrea ">
+        </div>
+        <div class='col-md-4'>
+          <img alt="Testimonial  BringBee Nathalie" class="img-responsive" src="img/testimonial/3.png" />
+        </div>
+        <div class='col-md-4'>
+          <img alt="Testimonial  BringBee Gregor" class="img-responsive" src="img/testimonial/4.png"/>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class='col-md-4'>
+          <blockquote>
+          <p>"In the everyday family hectic, BringBee is a real relief. With BringBee I don't have to go all the way to IKEA with my 2 children just to buy 2 or 3 practical articles."</p>
+          <small>Andrea, Zurich</small>
+          </blockquote>
+        </div>
+        <div class='col-md-4'>
+          <blockquote>
+          <p>"Great idea and well executed! We love the website and idea - congratulations! We even got the delivery on the same day! perfect :)"</p>
+          <small>Marc & Nathalie, Bern</small>
+          </blockquote>
+        </div>
+        <div class='col-md-4'>
+          <blockquote>
+          <p>"Usually, going to IKEA takes me half a day. With BringBee it now only takes a couple of clicks."</p>
+          <small>Gregor, Zürich</small>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class='row'>
+        <div class='col-md-12'>
+          <h2 class="text-center">Read more interviews with BringBees</h2>
+          <p class="text-center"><a href="http://bringbee.wordpress.com/2014/07/15/warum-ich-mich-auf-bringbee-verlassen-kann-interview-mit-elise-nardin/" target="_blank">Interview with Elise Nardin</a></p>
+          <p class="text-center"><a href="http://bringbee.wordpress.com/2014/08/01/wie-ich-in-10-minuten-mehrere-stunden-arbeit-spare-katja-erzahlt-wie-ihre-katzen-sie-zum-bringbee-machen-und-warum-ein-mann-im-anzug-vor-ihrer-tur-steht/" target="_blank">Interview with Katja Gräfenhain</a></p>
+          <p class="text-center"><a href="http://wp.me/p2DRcI-hV" target="_blank">Interview with Flurin Conradin</a></p>
+          <!-- <p><a href="g1" target="_blank">Interview with Flurin Conradin</p>-->
+        </div>
+       
+      </div>
+     
+
+      <hr class="featurette-divider" >
+
+
+
+
+
+
+       <!-- Community -->
+      
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">We had 2000+ BringBees in cities across Switzerland...</h1>        
+         </br>
+        </div>
+      </div>
+
+
+      <div class='row'>
+        <div class='col-md-12'>
+          <img width="100%" class="img-rounded" alt="Map of BringBees in Switzerland July 2014" class="img-responsive" src="img/map_072014.png"/>
+        </div>
+      </div>
+
+      <hr class="featurette-divider" >
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Thanks to our TOP BringBees</h1>        
+            </br> 
+            <p class="text-center">You are in luck if any of these people is your neighbor :)</p>
+            </br>  
+        </div>
+      </div>
+
+
+      <div class='row'>
+        <div class='col-md-2 col-md-offset-2'>
+          <img width="100%" alt="Jakob Kellenberg" class="img-responsive" style="align:center" src="img/botschafter/Botschafter_pics_jakob.png"/>
+          <h4 class="text-center" >Jakob Kellenberg</h4>
+        </div>
+         <div class='col-md-2 col-md-offset-1'>
+          <img width="100%"  alt="Esther Brülhart" class="img-responsive" src="img/botschafter/Botschafter_pics_esther.png"/>
+          <h4  class="text-center">Esther Brülhart</h4>
+        </div>
+         <div class='col-md-2 col-md-offset-1'>
+          <img width="100%" alt="Stefan Hainka" class="img-responsive" src="img/botschafter/Botschafter_pics_stefan.png"/>
+          <h4 class="text-center">Stefan Hainka</h4>
+        </div>
+      </div>
+
+      <div class='row' style="margin-top:30px;margin-bottom:50px;">
+          <div class='col-md-12'> 
+            <p><strong>We also want to say a HUGE thank you to </strong> Kristina Gajta, Julia von Stachelski, Marc Furrer, Cathrin Zgraggen, Lennart Opitz, Aishwarya Nagasureshbabu, Alex Pylaev, Xavier Charlet, Vukota Vucelic, Patric Chastonay, Markus Stocklin, Mirjam Villiger, Rui Manuel Ferreira Alves, Eveline Lichtensteiger, Steffen Volk, Martin Ernst, Raffaella Willmann, Germana Fiorini, Darko Milosevic, Martina Hauser, Désirée Scheidt, Christian Kiebele, Stevan Bukvic, Samuel Ebersold, Dominik Brun, Andrea Rehn, Adrian Allenspach, Ruedi Zogg, Stephanie Salomon, Reto Spicher, Stefanie Moser, Markus Lampart, Fabian Brändli, Stephan Coblitz, Martin Veit, Sarah Vogel, Pascal Meier, William Nüesch, Ursula Hungerbühler, Gabriel Bautista, Julia Sanchez, Patrick Osterwalder, David Bernet, David Schüeli, Shenojan Sathiyamohan, Janik Arnold, Stefano Scarpelli, Stefan Herrmann, Hans Fischer, Nevena Vucelic, Martin Halter, Joy Ackermann, Stella Schieffer, Pascal Fässli... </p>
+          </div>         
+        </div>
+
+      <hr class="featurette-divider" >
+
+
+
+
+
+
+       <!-- MEDIA-->      
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">We had some great media coverage...</h1>        
+         </br>  </br>
+        </div>
+      </div>
+
+
+      <div class='row'>
+        <div class='col-md-2'>
+          <a href="http://www.nzz.ch/schweiz/menschliche-transport-bienen-1.18355955" target="_blank"><img  alt="NZZ" class="img-responsive" src="img/media/nzz.jpg"/></a>
+        </div>
+
+        <div class='col-md-2'>
+           <a href="http://www.tagesanzeiger.ch/zuerich/region/Der-Nachbar-liefert-die-Ware/story/28337401" target="_blank"><img class="img-rounded" alt="Tagesanzeiger" class="img-responsive" src="img/media/tagi.jpg"/></a>
+        </div>
+
+        <div class='col-md-2'>
+           <a href="http://www.blick.ch/news/schweiz/zuerich/einfach-liefern-lassen-eth-spinoff-startet-ikea-bringservice-id2186779.html" target="_blank"><img class="img-rounded" alt="Blick" class="img-responsive" src="img/media/blick.jpg"/></a>
+        </div>
+
+        <div class='col-md-2'>
+           <a href="http://youtu.be/_mM5KBhc-_s" target="_blank"><img class="img-rounded" alt="ServusTV" class="img-responsive" src="img/media/servustv.png"/></a>
+        </div>
+
+        <div class='col-md-2'>
+           <a href="https://bringbee.files.wordpress.com/2014/08/20140514_bilanz_sharing_economy_28-5-14.pdf" target="_blank"><img class="img-rounded" alt="Bilanz" class="img-responsive" src="img/media/bilanz.jpg"/></a>
+        </div>
+
+        <div class='col-md-2'>
+           <a href="http://www.aargauerzeitung.ch/aargau/baden/der-nachbar-klingelt-mit-kissen-und-finken-im-arm-126224555" target="_blank"><img class="img-rounded" alt="Aargauer Zeitung" class="img-responsive" src="img/media/az.jpg"/></a>
+        </div>
+      </div>
+
+
+      <div class='row' style="margin-top:50px;margin-bottom:50px;">
+        
+
+        <div class='col-md-2'>
+          <a href="https://bringbee.files.wordpress.com/2014/08/20140328_dvz-25_2014_s6.pdf" target="_blank"><img  alt="DVZ" class="img-responsive" src="img/media/dvz.png"/></a>
+        </div>  
+
+        <div class='col-md-2'>
+          <a href="https://bringbee.files.wordpress.com/2014/08/2014_04_03_ehi_retail_technologyintelligente-letzte-meile-logistik.pdf" target="_blank"><img  alt="EHI Retail" class="img-responsive" src="img/media/ehi.png"/></a>
+        </div>
+
+        <div class='col-md-2'>
+          <a href="http://www.bernerzeitung.ch/schweiz/standard/Teilen-statt-haben/story/15210863" target="_blank"><img  alt="Berner Zeitung" class="img-responsive" src="img/media/bz.png"/></a>
+        </div>
+
+        <div class='col-md-2'>
+          <a href="#" target="_blank"><img  alt="NRJ" class="img-responsive" src="img/media/nrj.jpg"/></a>
+        </div>           
+
+        <div class='col-md-2'>
+          <a href="" target="_blank"><img  alt="Internet World Business" class="img-responsive" src="img/media/iwb.png"/></a>
+        </div>
+
+        <div class='col-md-2'>
+          <a href="" target="_blank"><img  alt="SI Grün" class="img-responsive" src="img/media/sigruen.jpg"/></a>
+        </div>
+
+      </div>
+
+
+      <hr class="featurette-divider" >
+    </div> <!-- END BRINGBEE OVERVIEW -->
+
+
+
+
+    <div class="container marketing"> 
+
+      
+
+<!--Learning -->
+            <div class="row" id="learnings">
+              <div class="col-md-12">
+                <h1 class="text-center">Lessons learned...</h1>        
+               </br>  </br>  
+              </div>
+            </div>
+
+          <div class='row'>
+            <div class='col-md-4'>
+              
+              <h2><span class="glyphicon glyphicon-tree-conifer"></span> Bootstrapping</h2>
+              <p>Rolling out a mass market product that requires ten thousands of transactions to ever break even is 'challenging' without a strategic investor or larger partner pushing for growth. Bootstrapping a B2C product was definitely very ambitious and slightly naive. The fact that all team members also had to work part-time to pay their rent, was not helpful to boost progress either.</p>
+            </div>
+
+            <div class='col-md-4'>
+              
+              <h2><span class="glyphicon glyphicon-shopping-cart"></span> Retail Partners</h2>
+              <p>At first, we thought that big corporates could only benefit from BringBee as an inexpensive, social and environmentally friendly last mile delivery. However we absolutely underestimated the long sales cycles and convoluted decision processes. Oftentimes no or already-blocked budgets and the lack of product data and product pictures stopped the acquisition of new partners. Without a large retail partner, we lost the chance to leverage their existing marketing channels and customer base as a multiplicator. </p>
+            </div>
+
+             <div class='col-md-4'>              
+              <h2><span class="glyphicon glyphicon-user"></span> Crowd</h2>
+              <p>Using the crowd to get deliveries from A to B is a fascinating and intriguing idea. However with our "volunteering" crowdsourced BringBee base, we could never truly "guarantee" a delivery. It would make sense to implement professional fall back options to guarantee a certain level of customer happiness or to better indicate the likelihood of delivery during the order process. </p>
+            </div>
+          </div>
+
+
+        <div class='row'>
+          <div class='col-md-12'>
+            <h2 class="text-center">Read more personal learnings of the founders:</h2>
+            <p class="text-center"><a href="http://stellaschieffer.wordpress.com/category/startup-lessons/" target="_blank">Stella's Blog: Learnings of an entrepreneur</a> </p>
+          </div>
+       
+        </div>
+
+
+      <hr class="featurette-divider" >
+
+
+
+          
+         <!-- FUTURE -->
+        <div class="row" id="future">
+          <div class="col-md-12">
+            <h1 class="text-center">The Future of Crowdlogistics</h1>        
+           </br>  </br>  
+            <p class="text-center">We still believe crowdlogistics has a chance in the future and it will eventually find its niche. Amazing future opportunities will include:</p>
+          </div>
+        </div>
+
+
+        <div class='row'>
+          <div class='col-md-4'>            
+            <h2><span class="glyphicon glyphicon-road"></span> Crowdsource deliveries to remote areas</h2>
+            <p>Save transport companies and couriers expensive trips to remote areas. Like that professional transport companies can avoid tours with low stop factors and empty detours.</p>
+          </div>
+
+          <div class='col-md-4'>            
+            <h2><span class="glyphicon glyphicon-map-marker"></span> Fast deliveries from the local store</h2>
+              <p>With a large enough number of BringBees and sufficient channels to communicate new jobs to BringBees effecticely, i.e. poster and boards at retailers or an integration in navigation or public transport ticket purchasing apps, deliveries can be matched efficiently and quickly. </p>
+          </div>
+
+           <div class='col-md-4'>            
+            <h2><span class="glyphicon glyphicon-time"></span> 24/7/365</h2>
+          <p>People move any time of the day: in the early morning, in the evening, at midnight, on Mondays, on Sundays and on holidays. People can deliver flexibly at any time.</p>                
+          </div>
+        </div>
+
+
+
+      <hr class="featurette-divider" >
+
+
+    <!--========================== -->
+    <!--========================== -->
+
+    <!--  Work in Crowd-->
+          
+        
+            <div class="row" >
+              <div class="col-md-8 col-md-offset-2">
+                <h1 class="text-center">YOU want to work in crowd-logistics? </h1>        
+               </br>  </br>  
+               <p class="text-center">You need an inspiring speaker for your logistics conference? You need consultancy for your own sharing economy business? The time is finally right and you need people who know the industry and share your love the crowd-logistics to finally make crowd-logistics happen?</p>
+              </div>
+            </div>
+
+            <div class="row" >
+              <div class="col-md-4 col-md-offset-4">
+                <a href="mailto:stella@bringbee.ch" target="_blank" class="text-center"><button type="button" class=" btn btn-block btn-lg btn-primary">GET IN TOUCH!</button></a>
+              </div>
+            </div>
+
+
+
+
+
+      <hr class="featurette-divider" >
+
+
+
+    <!--========================== -->
+    <!--========================== -->
+
+   
+        <!-- PIONEERS -->
+      <div class="row" id="team">
+        <div class="col-md-12">
+          <h1 class="text-center">Pioniere hinter BringBee</h1>        
+         </br>  </br>  
+        </div>
+      </div>
+
+       <div class='row'>
+          <div class='col-md-3'> 
+            <img class="img-rounded" alt="Stella Schieffer - BringBee" class="img-responsive" style="margin-bottom:30px;" src="img/team/stella_schieffer.jpg"/>         
+            <h3><strong>Stella Schieffer</strong></h3>
+            <p>
+              CEO</br> 
+              Email: <a href="mailto:stella@bringbee.ch" target="_blank">stella@bringbee.ch</a></br> 
+              Twitter: <a href="https://www.twitter.com/stellaschieffer" target="_blank">@stellaschieffer</a></br> 
+              <a href="https://www.linkedin.com/in/stellaschieffer" target="_blank">Linkedin</a>
+            </p>
+            
+          </div>
+
+         <div class='col-md-3'> 
+            <img class="img-rounded" alt="Shoaib Burq - BringBee" class="img-responsive" style="margin-bottom:30px;" src="img/team/shoaib_burq.jpg"/>         
+            <h3><strong>Shoaib Burq</strong></h3>
+            <p>
+              CTO</br> 
+              Email: <a href="mailto:shoaib@bringbee.ch" target="_blank">shoaib@bringbee.ch</a></br> 
+              Twitter: <a href="https://www.twitter.com/sabman" target="_blank">@sabman</a></br> 
+              <a href="http://de.linkedin.com/in/shoaibburq" target="_blank">Linkedin</a>
+            </p>
+            
+          </div>
+
+          <div class='col-md-3'> 
+            <img class="img-rounded" alt="Dr. Kashif Rasul - BringBee" class="img-responsive" style="margin-bottom:30px;" src="img/team/kashif_rasul.jpg"/>         
+            <h3><strong>Dr. Kashif Rasul</strong></h3>
+            <p>
+              Head of DevOps</br> 
+              Email: <a href="mailto:kashif@bringbee.ch" target="_blank">kashif@bringbee.ch</a></br> 
+              Twitter: <a href="https://www.twitter.com/krasul" target="_blank">@krasul</a>              
+            </p>
+            
+          </div>
+
+          <div class='col-md-3'> 
+            <img class="img-rounded" alt="Philipp Oberender - BringBee" class="img-responsive"  style="margin-bottom:30px;" src="img/team/philipp_oberender.jpg"/>         
+            <h3><strong>Philipp Oberender</strong></h3>
+            <p>
+              CFO</br> 
+              Email: <a href="mailto:philipp@bringbee.ch" target="_blank">philipp@bringbee.ch</a></br> 
+              <a href="https://www.linkedin.com/pub/philipp-oberender/27/774/a52" target="_blank">Linkedin</a>
+            </p>
+            
+          </div>       
+       
+        </div>
+
+
+        <hr class="featurette-divider" >
+
+
+         <!-- THANK YOU -->
+          <div class="row" id="thanks">
+        <div class="col-md-12">
+          <h1 class="text-center">We want to thank you!</h1>        
+         </br>  
+         <p class="text-center">Thank you for all the support, mentoring, help, open ears, fans, and feedback we received. We want to thank all of you for an amazing journey!</p>
+        </div>
+      </div>
+
+       <div class='row'>
+          <div class="col-md-1">             
+            <a href="http://www.ctistartup.ch/en/services/coaching/" target="_blank"><img alt="CTI" class="img-responsive" src="img/partner/landing_page_cti.png"/> </a>
+          </div>
+          <div class="col-md-1 col-sm-1"> 
+             <a href="http://www.ifj.ch/" target="_blank"><img alt="IFJ"  class="img-responsive" src="img/partner/landing_page_ifj.png"/> </a>
+          </div>
+          <div class="col-md-1 col-sm-1"> 
+            <a href="https://startups.ch/de/" target="_blank"><img  alt="Startups"  class="img-responsive" src="img/partner/landing_page_startups.png"/> </a>
+          </div>
+          <div class="col-md-1 col-sm-1"> 
+            <a href="https://www.axa-winterthur.ch/de/unternehmenskunden/kampagnen/startup/Seiten/default.aspx" target="_blank"><img alt="AXA"  class="img-responsive" src="img/partner/landing_page_axa.png"/> </a>
+          </div>
+          <div class='col-md-1'> 
+            <a href="http://sbb.ch/startup" target="_blank"><img  alt="SBB"  class="img-responsive" src="img/partner/landing_page_sbb.png"/> </a>
+          </div>
+          <div class='col-md-1'> 
+            <a href="https://wwwf.ch" target="_blank"><img  alt="WWF"  class="img-responsive" src="img/partner/landing_page_wwf.png"/> </a>
+          </div>        
+          <div class='col-md-1'> 
+            <a href="http://www.klimastiftung.ch/" target="_blank"><img alt="Klimastiftung"  class="img-responsive" src="img/partner/landing_page_klimastiftung.png"/> </a>
+          </div>
+          <div class='col-md-1'> 
+            <a href="http://www.climate-kic.org/" target="_blank"><img  alt="Climate-KIC"  class="img-responsive" src="img/partner/landing_page_eit.png"/> </a>
+          </div>
+         <div class='col-md-1'> 
+            <a href="https://www.ethz.ch/de/wirtschaft-gesellschaft/innovation-und-firmengruendung/spin-offs.html/" target="_blank"><img alt="ETH Spinoff"  class="img-responsive" src="img/partner/landing_page_ethspinoff.png"/> </a>
+          </div>
+          <div class='col-md-1'> 
+            <a href="http://zurich.impacthub.net/" target="_blank"><img alt="Impact HUB"  class="img-responsive" src="img/partner/landing_page_impacthub.png"/> </a>
+          </div>
+          <div class='col-md-1'> 
+            <a href="http://www.bonacasa.ch/" target="_blank"><img alt="bonacasa"  class="img-responsive" src="img/partner/landing_page_bonacasa.png"/> </a>
+          </div>
+          <div class='col-md-1'> 
+            <a href="http://nachbarschaftshilfe.ch/" target="_blank"><img alt="" class="img-responsive" src="img/partner/landing_page_nachbarschaftshilfe_zurich.png"/> </a>
+          </div>
+        </div>
+
+        <div class='row' style="margin-top:30px;">          
+           <div class='col-md-1'> 
+            <a href="http://sihlcity.ch/de/" target="_blank"><img alt="sihlcity" class="img-responsive" src="img/partner/landing_page_sihlcity.png"/> </a>
+          </div>
+           <div class='col-md-1'> 
+            <a href="http://www.shoppitivoli.ch/de/home/" target="_blank"><img alt="shoppi tivoli" class="img-responsive" src="img/partner/landing_page_tivoli.png"/> </a>
+          </div>
+          <div class='col-md-1'> 
+            <a href="http://www.gs1-germany.de/" target="_blank"><img alt="gs1" class="img-responsive" src="img/partner/landing_page_gs1.jpg"/> </a>
+          </div>          
+          <div class='col-md-1'> 
+            <a href="http://www.ikea.ch/" target="_blank"><img alt="gs1" class="img-responsive" src="img/partner/landing_page_ikea.png"/> </a>
+          </div>      
+           <div class='col-md-1'> 
+            <a href="http://www.burgdorferbier.ch/" target="_blank"><img alt="burgdorfer" class="img-responsive" src="img/partner/landing_page_burgdorfer.png"/> </a>
+          </div>      
+           <div class='col-md-1'> 
+            <a href="http://www.sudwerk.ch/" target="_blank"><img alt="sudwerk" class="img-responsive" src="img/partner/landing_page_sudwerk.jpg"/> </a>
+          </div>      
+           <div class='col-md-1'> 
+            <a href="http://www.mintgreen.ch/" target="_blank"><img alt="mintgreen" class="img-responsive" src="img/partner/landing_page_mintgreen.jpg"/> </a>
+          </div>      
+           <div class='col-md-1'> 
+            <a href="http://www.soeder.ch/" target="_blank"><img alt="soeder" class="img-responsive" src="img/partner/landing_page_soeder.png"/> </a>
+          </div>      
+           <div class='col-md-1'> 
+            <a href="http://www.tasteofgreece.ch/" target="_blank"><img alt="tasteofgreece" class="img-responsive" src="img/partner/landing_page_tasteofgreece.jpg"/> </a>
+          </div>   
+          
+        </div>
+
+        <div class='row' style="margin-top:30px;margin-bottom:50px;">
+          <div class='col-md-12'> 
+            <p><strong>We also want to thank: </strong> Prof. Dr. Axhausen, dem Institut für Verkehrsplanung und Ruth Bertschi; unserem CTI Coach Christoph Heidelberger für viele Kaffees, Experten-Meetings und offene Ohren; den wundervollen Mentoren vom IFJ Jordi Montserrat und Beat Schillig, ohne die PolyPort gar nicht erst gegründet worden wäre; Freddy Christandl, der erste Pionier, der voll an unser Konzept geglaubt hat; Bublu Thakur Weigold für Unterstützung auf jede erdenkliche Art, Rat und Einladungen an die NetLop-Konferenzen; Thomas Klann für einen unerschütterlichen Glauben an BringBee und Einladungen zu Logistik-Fachgruppen bis hin zum Deutschen Verkehrsministerium; Andreas Schumann für Unterstützung bei der Bekanntmachung von innovativen Startups im Logistikbereich und die Einladung zum iKEP; Startups.ch und der AXA Winterthur für den AXA Innovation Award, ohne den die Firma vielleicht niemals gegründet worden wäre, Christoph Birkholz, Nils Rot und Michel Bachmann, die von Anfang an unser Startup im Impact HUB mitverfolgt und gefördert haben; Donat Matthews, David Affentranger, Amedeo Persico, Seija Mahler, Stefan Herrmann, Martin Halter, Johan Olzon, Isabella Schoepfer, Tania Schellenberg, Hans Fischer, Andrea Vock, Kevin Zimmerli, Mara Bonorand, Stefan Kyora, Holger Hoffmann-Riem, Peter Schild, Joseph Heaven, Tim Goodall, Flurin Conradin, Sandra Paradiso, Carlo Pisano, Markus Werz, Katja Gräfenhain, Jakob Kellenberg, Esther Brülhart, und vielen, vielen mehr...</p>
+          </div>         
+        </div>
+
+
+
+
+  </div><!-- /.container -->
+
+
+
+    <!--============FOOTER ============== -->
+    <!--==============style="margin-bottom:50px;background-color:#f8f8f8;"============ -->
+
+    <!-- BEGIN TEST-->
+         <div style="background-color:#f8f8f8;">
+
+          <div class="container" >
+          
+                  <div class="row" id="contact" style="margin-bottom:50px;">
+                    <div class="col-md-4">
+                      <h3>#BeeInTouch</h3>
+                      <p>
+                        BringBee | PolyPort GmbH</br>
+                        Zürich, Switzerland</br>
+                      </p>
+                      <p>
+                        <a href="http://bringbee.ch">www.bringbee.ch</a></br>
+                      </p>
+                    </div>
+
+                    <div class="col-md-4">
+                      <h3>#BeeBusiness</h3>
+                      <p><b>Management:</b> Stella Schieffer, Philipp Oberender, Shoaib Burq, Dr. Kashif Rasul</p>
+                      <p><b>UID:</b> CHE-355.286.422</p>
+                      <p><b>Handelsregister:</b> CH-020.4.046.675-4 </p>
+                    </div>
+                    <div class="col-md-4">
+                      <h3>#BeeSocial</h3>
+                      <p>
+                        <b>Like:</b> <a href="http://facebook.com/BringBee" target="_blank">www.facebook.com/BringBee</a></br>
+                        <b>Follow:</b> <a href="http://twitter.com/bringbee_ch" target="_blank">@bringbee_ch </a> </br>
+                        <b>Youtube:</b> <a href="https://www.youtube.com/channel/UCah4200PzwXxnSuEq-JfA6w" target="_blank">BringBee Kanal</a> </br>
+                      </p>
+                    </div>
+                  </div>
+
+                  <hr>
+                  <!-- FOOTER -->
+                  <footer >
+                   <div class="col-md-4">
+                      <ul class="list-inline">
+                        <li><a href="http://facebook.com/bringbee" target="_blank"><img class="img-responsive" src="img/icons/fb.png"/> </a> </li>
+                        <li> <a href="https://twitter.com/BringBee_ch" target="_blank"><img  class="img-responsive" src="img/icons/twitter.png"/>  </a> </li>
+                        <li><a href="http://bringbee.wordpress.com" target="_blank"><img class="img-responsive" src="img/icons/w.png"/> </a> </li>
+                        <li> <a href="https://plus.google.com/u/0/b/115294434194099575969/115294434194099575969/posts/p/pub" target="_blank"><img  class="img-responsive" src="img/icons/g+.png"/> </a>
+                      </li>
+                      </ul>
+                      
+                      
+                    </div>
+
+                    <div class="col-md-4">
+                      <p class="text-success">
+                      Made with
+                      <span class="glyphicon glyphicon-heart"></span>
+                      by
+                      <a href="http://polyport.ch">Polyport GmbH</a>
+                      © 2014
+                      </p>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="#">
+                      Back to top
+                      </a>
+                     </div>       
+                  </footer>
+            
+
+
+
+          </div><!-- end container -->
+         </div><!-- end background div -->
+         <!-- END TEST -->
+
+
+     <!--========================== -->
+    <!--========================== -->
+
+
+    
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-33341897-1']);
+      _gaq.push(['_setDomainName', 'bringbee.ch']);
+      _gaq.push(['_setSiteSpeedSampleRate', 100]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
